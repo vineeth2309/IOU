@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 def draw_box(frame, bbox, color=(255,0,0)):
 	x1, y1, x2, y2 = bbox
